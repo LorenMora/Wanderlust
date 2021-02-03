@@ -1,6 +1,6 @@
 {
   "name": "wanderlust",
-  "homepage": "https://lorenmora.github.io/Wanderlust",
+  "homepage": "https://wanderlust-travel-site.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
