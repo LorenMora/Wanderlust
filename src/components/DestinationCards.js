@@ -34,7 +34,7 @@ function DestinationCards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItemDestinations
-                        src='images/french-polynesia.jpg'
+                        src='images/French-polynesia.jpg'
                         text='Pacific Islands'
                         path='/adventures'
                         />
