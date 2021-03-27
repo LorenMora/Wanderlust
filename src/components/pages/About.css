@@ -12,12 +12,12 @@
 h1 {
     text-align: center;
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .our-story-wrapper,
 .services-wrapper {
-    padding: 5rem;
+    padding: 5rem 3rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -80,7 +80,20 @@ h1 {
     color: var(--tertiary);
 }
 
-
 p {
     font-size: 1rem;
+}
+
+@media screen and (max-width: 350px){
+    .bio-heading{
+        font-size: 16px;
+    }
+
+    .our-story-wrapper{
+        padding: 2.5rem;
+    }
+
+    .service-card p {
+        text-align: center;
+    }
 }

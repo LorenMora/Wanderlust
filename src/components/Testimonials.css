@@ -21,7 +21,6 @@
 .testimonials-wrapper {
     display: flex;
     flex-direction: column;
-    height: 43rem;
     align-items: flex-start;
 }
 
@@ -39,9 +38,11 @@
     text-decoration: none;
 }
 
+
 .testimony-img {
     width: 150px;
     height: 150px;
+    padding: 15px;
     border-radius: 50%;
     size: 1rem;
     display: inline-block;
@@ -50,7 +51,7 @@
 
 .testimony-content {
     border-left: 10px solid var(--tertiary);
-    margin: 1.5em 10px;
+    margin: 1.5em 5px 1.5em 20px;
     padding: 0.5em 10px;
     content: close-quote;
     color: var(--secondary);
@@ -74,11 +75,22 @@
     vertical-align: -0.4em;
 }
 
+
 @media screen and (min-width: 870px) {
     .testimonials-container{
         display: flex;
         flex-direction: column;
         align-items: center ;
 
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .testimony-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .test-heading{
+        font-size: 2.4rem;
     }
 }

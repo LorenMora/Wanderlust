@@ -7,9 +7,9 @@
 }
 
 .cards {
-    padding: 4rem;
+    padding: 2rem;
     background: var(--primary);
-    padding: 5rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -165,5 +165,17 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .home-title{
+        font-size: 1.5rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .cards__item__p {
+        font-size: 15px;
     }
   }

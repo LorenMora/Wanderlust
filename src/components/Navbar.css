@@ -120,6 +120,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+      margin-left: 0;
     }
   
     .menu-icon {
@@ -138,7 +139,6 @@
       font-size: 2rem;
     }
 
-    
   
     .nav-links-mobile {
       display: block;
@@ -159,5 +159,11 @@
       background: var(--accent-color);
       color: #242424;
       transition: 250ms;
+    }
+  }
+  @media screen and (max-width: 350px) {
+      .navbar-logo{
+        right: 200px; 
+        top: -4px;    
     }
   }

@@ -5,7 +5,7 @@ import CardItem from './CardItem.js';
 function HomeCards() {
   return (
     <div className='cards'>
-      <h1>Adventure stories from behind the scenes!</h1>
+      <h1 className='home-title'>Adventure stories from behind the scenes!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
