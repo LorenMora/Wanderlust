@@ -3,6 +3,7 @@ import { GiFarmer, GiEcology, GiForest, GiRecycle, GiBodyBalance } from 'react-i
 import { MdAllInclusive, MdLocalFlorist, MdChildFriendly } from 'react-icons/md';
 
 function AboutInfo() {
+
     return (
         <div className='info-container'>
             <div className='our-story-wrapper'>

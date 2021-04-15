@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import HeroSection from '../HeroSection.js';
 import AdventuresCards from '../AdventuresCards';
 import Testimonials from '../Testimonials';
 
 export default function Adventures() {
+
+    const headingRef = useRef(null);
+
+    useEffect(() => {
+        headingRef.current.focus();
+    }, [])
+
   return (
-    <div>
+    <div ref={headingRef} tabIndex={-1}>
         <HeroSection 
         src='images/scuba-diver.jpg'
         alt=''

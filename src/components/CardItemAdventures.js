@@ -19,7 +19,7 @@ export default function CardItemAdventures(props) {
                             <h2>{props.title}</h2>
                         </header>
                         <h7 className='cards__item__p'>{props.text}</h7>
-                        <Link to='/sign-up' className='button_container'><button className='button'>Register Now!</button></Link>
+                        <Link to='/sign-up' className='button_container' tabIndex={-1}><button className='button'>Register Now!</button></Link>
                     </div>
                     
                 </div>
