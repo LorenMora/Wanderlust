@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from 'react'
+import React from 'react'
 import '../../App.css';
 import HomeHeroSection from '../HomeHeroSection.js';
 import HomeCards from '../HomeCards';
@@ -6,15 +6,13 @@ import DestinationCards from '../DestinationCards';
 
 export default function Home (){
 
-    const headingRef = useRef(null);
 
-    useEffect(() => {
-        headingRef.current.focus();
-    }, [])
 
     return (
-        <div ref={headingRef} tabIndex={-1}>
+        <div>
+            <a href='#maincontent' className='skip-link' tabIndex={5}>Skip to main content</a>
             <HomeHeroSection />
+            <div id='maincontent'></div>
             <HomeCards />
             <DestinationCards />
         </div>

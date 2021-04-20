@@ -7,7 +7,7 @@ function AboutInfo() {
     return (
         <div className='info-container'>
             <div className='our-story-wrapper'>
-                <h1>Our Story</h1>
+                <h1 tabIndex={0}>Our Story</h1>
                 <div className='bio-wrapper'>
                     <h2 className='bio-heading'>"To travel is to live" - Founder of WANDERLUST</h2>
                     <p className='bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur. Proin sed libero enim sed faucibus turpis in eu. Feugiat scelerisque varius morbi enim nunc faucibus. A erat nam at lectus urna duis convallis convallis tellus. Interdum velit laoreet id donec ultrices. Vestibulum sed arcu non odio. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Suspendisse potenti nullam ac tortor vitae. Pellentesque id nibh tortor id aliquet lectus proin. Sed faucibus turpis in eu. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Quis vel eros donec ac odio tempor orci.</p>

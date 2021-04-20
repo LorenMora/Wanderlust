@@ -6,7 +6,7 @@ import './Cards.css';
 export default function AdventuresCards() {
     return (
         <div className='cards'>
-            <h1>Adventure Packages</h1>
+            <h1 tabIndex={0}>Adventure Packages</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>

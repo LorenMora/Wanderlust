@@ -27,7 +27,19 @@
         margin: 0px;
         padding: 0px;
         overflow-x: hidden; 
-    }
+    } 
+  }
 
-   
+  .skip-link{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: white;
+      color: black;
+      padding: 8px;
+      z-index: 100;
+  }
+
+  .skip-link:focus {
+      top: 80px;
   }
